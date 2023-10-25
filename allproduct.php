@@ -31,7 +31,7 @@ if($re->num_rows>0){
               class="card-title"><?=$row['ProductName']?></h5></a>
               <h6 class="card-subtitle mb-2 text-muted"><span>&#8363;</span> <?=$row['Price']?></h6>
               <a href="delete.php?id=<?= $row['Id'] ?>" class="btn btn-danger">Delete</a>
-              <a href="update.php?Id=<?= $row['Id'] ?>" class="btn btn-success">Update</a>
+              <a href="update.php?id=<?= $row['Id'] ?>" class="btn btn-success">Update</a>
               </h5></span>
           </div>
         </div>
