@@ -38,7 +38,7 @@ if(isset($_POST['btnAdd'])){
 ?>
 
     <div class="container">
-        <h2>PRODUCT MANAGEMENT</h2>
+        <h2>PRODUCT ADD</h2>
         <form  class="form form-vertical" action="#" method="POST" enctype="multipart/form-data">
             <div class="row mb-3">
                 <label for="pstore" class="col-12">Store ID</label>
